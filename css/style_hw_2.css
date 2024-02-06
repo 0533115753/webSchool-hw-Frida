@@ -1,0 +1,18 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+#container {
+    text-align: center;
+}
+
+#stopwatch {
+    font-size: 5em;
+    text-shadow: 0 0 10px red;
+    transition: text-shadow 5s ease-in-out;
+}
+
